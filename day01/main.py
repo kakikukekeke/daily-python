@@ -1,1 +1,2 @@
-print("Day 1:hello python!")
+text = input("名前を入力してください")
+print("あなたの名前は",text)
