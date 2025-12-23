@@ -6,3 +6,6 @@ python学習記録
 FizzBuzz
 if,elif,else,for
 
+#2025-12-23 Day4
+forの使い方復習
+for
