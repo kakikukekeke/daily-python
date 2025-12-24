@@ -9,3 +9,7 @@ if,elif,else,for
 #2025-12-23 Day4
 forの使い方復習
 for
+
+
+#2025-12-24 Day5
+import random,if,elif,else
