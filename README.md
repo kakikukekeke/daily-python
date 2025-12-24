@@ -13,3 +13,6 @@ for
 
 #2025-12-24 Day5
 import random,if,elif,else
+
+#2025-12-25
+list,for,if
