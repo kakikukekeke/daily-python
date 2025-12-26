@@ -16,3 +16,7 @@ import random,if,elif,else
 
 #2025-12-25
 list,for,if
+
+
+2025-12-26
+for,list
