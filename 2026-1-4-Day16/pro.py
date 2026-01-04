@@ -1,0 +1,12 @@
+grades = {
+  "A":80,
+  "B":60,
+  "C":0
+}
+def judge(score):
+  for grade,border in sorted(grades.items(),key=lambda x : x[1],reverse=True):
+    if score >= border:
+      return grade
+print(judge(85))
+print(judge(65))
+print(judge(40))
