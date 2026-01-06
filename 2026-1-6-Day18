@@ -1,0 +1,9 @@
+import random 
+r = random.random()
+
+if r < 0.6:
+  print("slime!!!")
+elif r < 0.9:
+  print("goblin!!!")
+else:
+  print("golden slime!!!")
