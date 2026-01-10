@@ -1,0 +1,19 @@
+class Plyayer:
+    def __init__(self,name):
+        self.name = name
+        self.hp = 30
+        self.level = 1
+
+    def show_status(self):
+        print(f"名前:{self.name}")
+        print(f"HP:{self.hp}")
+        print(f"レベル:{self.level}")
+        print("----------")
+
+
+Plyayer1 = Plyayer("Hero")
+Plyayer2 = Plyayer("Knight")
+
+
+Plyayer1.show_status()
+Plyayer2.show_status()
