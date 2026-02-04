@@ -1,0 +1,10 @@
+import pandas as pd
+import matplotlib.pyplot as plt
+plt.rcParams["font.family"] = "sans-serif"
+plt.rcParams["font.sans-serif"] = ["Hiragino Maru Gothic Pro",
+"Hiragino sans","BIZ UDGothic","MS Gothic"]
+
+df = pd.read_csv("sample.csv")
+
+df.plot()
+plt.show()
