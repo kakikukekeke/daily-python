@@ -1,0 +1,10 @@
+import requests
+import json
+
+key = "aea2c9e0afcf081dac7e698d18a5435c"
+city = "Tokyo,JP"
+
+url =  f"https://api.openweathermap.org/data/2.5/weather?q=Sakura,jp&appid={key}&units=metric&lang=ja"
+
+jsondata = requests.get(url).json()
+print(jsondata)
